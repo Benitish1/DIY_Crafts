@@ -1,0 +1,13 @@
+html {
+  scroll-behavior: smooth; /* Smooth scroll animation */
+}
+
+#about {
+  scroll-margin-top: 100px; /* Adjust this value to your needs */
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+  }
+
+ 

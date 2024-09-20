@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DIY Crafts and Handmade Gift Ideas</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/0cca3fd63d.js" crossorigin="anonymous"></script>
+    <style>
+      @media (min-width: 1024px) {
+        #gift-ideas ul {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 8%;
+        }
+        #gift-ideas li {
+          flex: 0 0 30%;
+          max-width: 22%;
+          box-sizing: border-box;
+          margin-top: 40px;
+        }
+
+        #crafts ul {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 8%;
+        }
+        #crafts li {
+          flex: 0 0 30%;
+          max-width: 22%;
+          box-sizing: border-box;
+          margin-top: 40px;
+        }
+      }
+      section li{
+        background-color: rgb(191, 206, 200);
+      }
+      li:hover{
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+      }
+ 
+    </style>
+    
+  
+  </head>
+  <body class="bg-gray-100 text-black overflow-x-hidden">  
+    <header class="bg-purple-300 fixed w-full z-50">
+
+    
+      <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+          <div class="flex items-center space-x-4">
+            <img src="photos/lgp.png" alt="Logo" class="w-24 h-12">
+          </div>
+         
+        <div class="hidden md:flex space-x-6">
+          <a href="#about" class="text-white hover:bg-gray-200 hover:text-black px-4 py-2 rounded-lg">About</a>
+          <a href="#crafts" class="text-white hover:bg-gray-200 hover:text-black px-4 py-2 rounded-lg">Crafts</a>
+          <a href="#gift-ideas" class="text-white hover:bg-gray-200 hover:text-black px-4 py-2 rounded-lg">Gift Ideas</a>
+          <a href="#contact" class="text-white hover:bg-gray-200 hover:text-black px-4 py-2 rounded-lg">Contact</a>
+        </div>
+    
+
+        
+        <div class="md:hidden">
+          <button id="hamburger" class="text-white focus:outline-none">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+        <div id="mobile-menu" class="hidden md:hidden">
+          <a href="#about" class="text-white block px-4 py-2">About</a>
+          <a href="#crafts" class="text-white block px-4 py-2">Crafts</a>
+          <a href="#gift-ideas" class="text-white block px-4 py-2">Gift Ideas</a>
+          <a href="#contact" class="text-white block px-4 py-2">Contact</a>
+        </div>
+
+
+    </header>
+
+    <div class="diy bg-cover bg-center bg-black bg-opacity-70" style="background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('photos/R (1).jpeg'); height: 1000px;">
+      <div class="container mx-auto pt-64 text-center text-white">
+        <h1 class="text-6xl font-bold">Un<u>leash Your Creati</u>vity</h1>
+        <div class="mt-10">
+          <p class="mb-4">Embark on a journey of self-expression.</p>
+          <p class="mb-8">
+            Explore the world of DIY crafts and handmade gift ideas, where<br>
+            ordinary materials are transformed into extraordinary keepsakes.<br>
+            Cultivate your passions, unlock your innovative spirit, and<br>
+            personalize your world with heartfelt, one-of-a-kind creations.
+          </p>
+          <button class="bg-pink-300 hover:bg-pink-400 text-black font-bold py-2 px-2 rounded-lg ml-2">Get Started</button>
+        </div>
+      </div>
+    </div>
+      
+    <section id="about" class="container mx-auto mt-20 flex flex-col md:flex-row items-center">
+      <br> <br> <Br>
+      <div class="md:w-1/2">
+        <h2 class="text-4xl font-bold text-purple-600">About Us</h2>
+        <p class="mt-4 text-lg">
+          We're passionate about DIY crafts and handmade gift ideas. Our mission
+          is to inspire and empower you to create something unique and special. We
+          believe that the joy of crafting and the personal touch of handmade
+          gifts can make a lasting impression on the recipients. Our team of
+          experienced designers and DIY enthusiasts is dedicated to providing you
+          with a wide range of creative project ideas and step-by-step tutorials.
+          From festive holiday ornaments to personalized home decor, we strive to
+          offer a diverse selection of DIY projects that cater to all skill
+          levels. Explore our collection of gift-worthy DIY ideas and discover the
+          satisfaction of creating something truly one-of-a-kind. Whether you're
+          looking to make a special present for a loved one or want to add a
+          personal touch to your own home, we're here to guide you through the
+          process and help you bring your creative vision to life.
+        </p>
+        <button class="mt-6 bg-pink-500 hover:bg-pink-600 text-white font-bold py-2 px-4 rounded-lg">Read More</button>
+      </div>
+      <div class="md:w-1/2 mt-8 md:mt-0 flex justify-center">
+        <img src="photos/diy.jpeg" alt="About us" class="rounded-xl shadow-lg" />
+      </div>
+    </section>
+
+    <hr class="mt-20 mb-6 border-t-2 border-gray-300" />
+
+    <section id="crafts" class="container mx-auto p-8 w-full">
+      <br> <br> <br>
+   
+      <h2 class="text-4xl font-bold text-purple-600 text-center mb-8">DIY Crafts</h2>
+      <ul class="flex flex-wrap justify-center gap-8">
+        <li class="w-80 p-6 rounded-xl shadow-lg">
+          <img src="photos/flower.jpeg" alt="Craft 1" class="w-full h-64 object-cover rounded-full mb-4" />
+          <h3 class="text-2xl font-bold text-purple-600 mb-2">Craft 1: Paper Flower</h3>
+          <p>Create a beautiful paper flower to decorate your home or give as a gift.</p>
+        </li>
+        <li class="w-80 p-6 rounded-xl shadow-lg">
+          <img src="photos/hanger.jpg" alt="Craft 2" class="w-full h-64 object-cover rounded-full mb-4" />
+          <h3 class="text-2xl font-bold text-purple-600 mb-2">Craft 2: Macrame Plant Hanger</h3>
+          <p>Learn how to create a bohemian-inspired plant hanger using macrame techniques.</p>
+        </li>
+        <li class="w-80 p-6 rounded-xl shadow-lg">
+          <img src="photos/cnd.avif" alt="Craft 3" class="w-full h-64 object-cover rounded-full mb-4" />
+          <h3 class="text-2xl font-bold text-purple-600 mb-2">Craft 3: DIY Scented Candle</h3>
+          <p>Make your own personalized scented candles using natural ingredients and essential oils.</p>
+        </li>
+        <li class="w-80 p-6 rounded-xl shadow-lg">
+          <img src="photos/dreamcatcher.jpeg" alt="Craft 4" class="w-full h-64 object-cover rounded-full mb-4" />
+          <h3 class="text-2xl font-bold text-purple-600 mb-2">Craft 4: Dreamcatcher</h3>
+          <p>Unleash your creativity and make a beautiful dreamcatcher to hang in your home.</p>
+        </li>
+        <li class="w-80 p-6 rounded-xl shadow-lg">
+          <img src="photos/earings.jpg" alt="Craft 5" class="w-full h-64 object-cover rounded-full mb-4" />
+          <h3 class="text-2xl font-bold text-purple-600 mb-2">Craft 5: DIY Beaded Earrings</h3>
+          <p>Craft unique and stylish earrings using beads, wire, and your own design touch.</p>
+        </li>
+        <li class="w-80 p-6 rounded-xl shadow-lg">
+          <img src="photos/terrarium.jpg" alt="Craft 6" class="w-full h-64 object-cover rounded-full mb-4" />
+          <h3 class="text-2xl font-bold text-purple-600 mb-2">Craft 6: Mini Terrarium</h3>
+          <p>Create a beautiful and low-maintenance mini terrarium to liven up your living space.</p>
+        </li>
+      </ul>
+      
+    </section>
+
+    <hr class="mt-20 mb-6 border-t-2 border-gray-300" />
+
+
+    <section id="gift-ideas" class="container mx-auto p-8">
+      <br> <br> <br>
+      <h2 class="text-4xl font-bold text-purple-600 text-center mb-8">Handmade Gift Ideas</h2>
+      <ul class="flex flex-wrap justify-center gap-8">
+        <li class="w-80 p-6 rounded-xl shadow-lg">
+          <img src="photos/mug.jpeg" alt="Gift 1" class="w-full h-64 object-cover rounded-full mb-4" />
+          <h3 class="text-2xl font-bold text-purple-600 mb-2">Gift 1: Personalized Mug</h3>
+          <p>Create a unique and thoughtful gift for your loved ones with a personalized mug. You can add a special message, design, or image to make it extra special.</p>
+        </li>
+        <li class="w-80 p-6 rounded-xl shadow-lg">
+          <img src="photos/scarf.jpeg" alt="Gift 2" class="w-full h-64 object-cover rounded-full mb-4" />
+          <h3 class="text-2xl font-bold text-purple-600 mb-2">Gift 2: Knitted Scarf</h3>
+          <p>Learn how to knit a cozy and stylish scarf that makes a perfect handmade gift for any occasion.</p>
+        </li>
+        <li class="w-80 p-6 rounded-xl shadow-lg">
+          <img src="photos/bath bombs.jpeg" alt="Gift 3" class="w-full h-64 object-cover rounded-full mb-4" />
+          <h3 class="text-2xl font-bold text-purple-600 mb-2">Gift 3: Homemade Soap</h3>
+          <p>Make your own natural and fragrant soaps to give as a thoughtful and practical gift.</p>
+        </li>
+        <li class="w-80 p-6 rounded-xl shadow-lg">
+          <img src="photos/box.jpg" alt="Gift 4" class="w-full h-64 object-cover rounded-full mb-4" />
+          <h3 class="text-2xl font-bold text-purple-600 mb-2">Gift 4: Handmade Journal</h3>
+          <p>Create a beautiful handmade journal that can be used for writing, sketching, or keeping memories.</p>
+        </li>
+        <li class="w-80 p-6 rounded-xl shadow-lg">
+          <img src="photos/frame.jpeg" alt="Gift 5" class="w-full h-64 object-cover rounded-full mb-4" />
+          <h3 class="text-2xl font-bold text-purple-600 mb-2">Gift 5: Bath Bombs</h3>
+          <p>Make colorful and fragrant bath bombs that make a perfect gift for a relaxing and luxurious bath experience.</p>
+        </li>
+        <li class="w-80 p-6 rounded-xl shadow-lg">
+          <img src="photos/coasters.jpeg" alt="Gift 6" class="w-full h-64 object-cover rounded-full mb-4" />
+          <h3 class="text-2xl font-bold text-purple-600 mb-2">Gift 6: Woven Basket</h3>
+          <p>Learn how to weave a beautiful and functional basket that can be used for storage or as a decorative piece.</p>
+        </li>
+      </ul>
+    </section>
+    <br> <br> <br> <br> <br> 
+      
+    <hr class="mt-20 mb-6 border-t-2 border-gray-300" />
+    <br> <br> <br> <br> <br> 
+
+    <section id="contact" class=" py-8">
+      <div class="container mx-auto text-center">
+        <h2 class="text-4xl font-bold text-purple-400">Contact Us</h2>
+        <p class="mt-4 text-lg text-grey">
+          We'd love to hear from you! If you have any questions, suggestions, or
+          just want to share your latest DIY project, feel free to get in touch
+          with us.
+        </p>
+        <form class="mt-8 max-w-lg mx-auto">
+          <div class="mb-4">
+            <input
+              type="text"
+              placeholder="Name"
+              class="w-full p-2 rounded-lg border border-gray-300"
+            />
+          </div>
+          <div class="mb-4">
+            <input
+              type="email"
+              placeholder="Email"
+              class="w-full p-2 rounded-lg border border-gray-300"
+            />
+          </div>
+          <div class="mb-4">
+            <textarea
+              rows="4"
+              placeholder="Message"
+              class="w-full p-2 rounded-lg border border-gray-300"
+            ></textarea>
+          </div>
+          <button
+            type="submit"
+            class="bg-purple-500 hover:bg-pink-600 text-white font-bold py-2 px-4 mr-100 rounded-lg"
+          >
+            Send
+          </button>
+        </form>
+      </div>
+    </section>
+    <footer class="bg-purple-400 text-white text-center py-6">
+        <div class="container mx-auto">
+         
+            <div  id="cat">
+              <h5 class="text-xl font-semibold">Popular Categories</h5>
+              <ul class="mt-4 space-y-2">
+                <li><a href="#" class="hover:text-gray-300">Paper Crafts</a></li>
+                <li><a href="#" class="hover:text-gray-300">Sewing Projects</a></li>
+                <li><a href="#" class="hover:text-gray-300">Upcycled Home Decor</a></li>
+                <li><a href="#" class="hover:text-gray-300">Handmade Jewelry</a></li>
+              </ul>
+            </div>
+            
+            
+          </div>
+          <p class="mt-6 text-sm">&copy; 2024 Crafity. All rights reserved.</p>
+        </div>
+      </footer>
+      
+      <script>
+        document.getElementById('hamburger').addEventListener('click', function () {
+          var menu = document.getElementById('mobile-menu');
+          if (menu.classList.contains('hidden')) {
+            menu.classList.remove('hidden');
+          } else {
+            menu.classList.add('hidden');
+          }
+        });
+      </script>
+  </body>
+</html>
